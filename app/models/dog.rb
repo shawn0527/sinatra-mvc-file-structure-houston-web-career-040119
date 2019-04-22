@@ -5,4 +5,5 @@ class Dog
   def initialize
     @@all << self
   end
-  
+end
+
