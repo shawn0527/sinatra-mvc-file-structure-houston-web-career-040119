@@ -2,9 +2,9 @@ class Dog
   attr_accessor :name, :age
   attr_reader :breed
 
-  @@all = []
+  @@all = 
 
-  def initialize
+  def initialize(name: name, breed: breed, age: age)
     @name = name
     @breed = breed
     @age = age
